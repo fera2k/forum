@@ -1,0 +1,9 @@
+<h2>Posts</h2>
+
+<% @posts.each do |post| %>
+<div class="post">
+    <div class="title"><%= post.title %></div>
+    <div class="author"><%= post.author.name %></div>
+    <div class="date"><%= "#{time_ago_in_words(post.updated_at)} #{t('captions.ago')}" %></div>
+</div>
+<% end %>
