@@ -1,5 +1,13 @@
 {
   "name": "forum",
-  "private": true,
-  "dependencies": {}
+  "private": false,
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  },
+  "version": "1.0.0",
+  "description": "forum app test",
+  "main": "app/assets/javascrpts/application.js",
+  "repository": "git@github.com:fera2k/forum.git",
+  "author": "Fernando Vieira <fera_br@yahoo.com.br>",
+  "license": "GPL-3.0-or-later"
 }

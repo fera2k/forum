@@ -42,3 +42,13 @@ bower.json
 
 # Ignore Byebug command history file.
 .byebug_history
+
+# IDE RubyMine files
+.idea/*
+
+# Lock files
+*.lock
+
+# ignore javascript dependencies
+node_modules/**
+
