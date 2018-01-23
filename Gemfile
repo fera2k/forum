@@ -61,6 +61,8 @@ end
 group :test do
   # fake data generator for tests
   gem 'faker'
+  gem 'database_cleaner'
+  gem 'rails-controller-testing'
 end
 
 group :development do
